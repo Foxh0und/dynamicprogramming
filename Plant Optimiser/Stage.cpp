@@ -1,11 +1,3 @@
-//
-//  Stage.cpp
-//  PlantOptimiser
-//
-//  Created by Adam Miritis on 30/10/2015.
-//  Copyright © 2015 Adam Miritis. All rights reserved.
-//
-
 #include "Stage.h"
 
 using namespace std;
