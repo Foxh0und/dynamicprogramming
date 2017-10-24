@@ -1,11 +1,3 @@
-//
-//  Plant.cpp
-//  Plant
-//
-//  Created by Adam Miritis on 6/10/2015.
-//  Copyright © 2015 Adam Miritis. All rights reserved.
-//
-
 #include "Plant.h"
 #include <iostream>
 #include <stdexcept>
@@ -24,7 +16,7 @@ Plant::Plant( int aProposalNumber )
         cin >> lCost;
         cout << "Now, it's revenue: ";
         cin >> lRevenue;
-        cout << "." << endl;
+        cout << endl;
         
         fProposals.push_back( Proposal( lIndex++, lCost, lRevenue ) );
     }
